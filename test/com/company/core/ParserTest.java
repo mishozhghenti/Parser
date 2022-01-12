@@ -68,7 +68,7 @@ class ParserTest {
     }
 
     @Test
-    void sortedParse() {
+    void TestSortedParse() {
         List<Item> list = Parser.sortedParse("(e, a(k, b),c)");
         Assertions.assertEquals(list.get(0).getValue(), "a");
         Assertions.assertEquals(list.get(0).getList().get(0).getValue(), "b");

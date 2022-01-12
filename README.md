@@ -19,3 +19,5 @@ Iteratively parse a string and recursively link its dependencies. Each Node (nam
 
 For recursion, Depth First Search (DFS) is used.
 For sorting, `ArrayList.sort()` is used. In order to sort every node and its list, I call the sorting recursively.
+
+#### Includes unit tests

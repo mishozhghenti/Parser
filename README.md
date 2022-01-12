@@ -14,3 +14,7 @@ javac Main.java
 java Main
 ```
 
+#### Brief Algorithm Overview:
+Iteratively parse a string and recursively link its dependencies. Each Node (named 'Item') contains the name itself (named 'Value') and list of Nodes (named 'List').
+
+For recursion, I used Depth First Search (DFS).

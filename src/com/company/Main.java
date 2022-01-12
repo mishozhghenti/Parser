@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        String text = "(id,created,employee(id,firstname,employeeType(id),lastname),location)";
+        String text = args[0];
         List<Item> list = Parser.parse(text);
         List<Item> sortedList = Parser.sortedParse(text);
         System.out.println("### Just Parsed ###");

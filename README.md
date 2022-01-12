@@ -14,7 +14,8 @@ javac Main.java
 java Main
 ```
 
-#### Brief Algorithm Overview:
+#### Brief Algorithm Overview (including the Bonus task):
 Iteratively parse a string and recursively link its dependencies. Each Node (named 'Item') contains the name itself (named 'Value') and list of Nodes (named 'List').
 
-For recursion, I used Depth First Search (DFS).
+For recursion, Depth First Search (DFS) is used.
+For sorting, `ArrayList.sort()` is used. In order to sort every node and its list, I call the sorting recursively.
